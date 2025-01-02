@@ -20,9 +20,11 @@ const illustration = {
 };
 
 const greeting = {
+  username: "Ghaza",
   title: "Hi, I'm Fauzan Ghaza Madani",
   subTitle: emoji("Aspiring Data Scientist, Data Engineer, and Network Engineer 🚀"),
-  resumeLink: "https://drive.google.com/file/d/1res13zhGG8Hos0qwbV6vO1Xa4ypOoUkX/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1res13zhGG8Hos0qwbV6vO1Xa4ypOoUkX/view?usp=sharing",
+  displayGreeting: true
 };
 
 
