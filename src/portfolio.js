@@ -395,9 +395,15 @@ const talkSection = {
     {
       title: "Introduction to MLOps for Machine Learning Projects",
       subtitle: "Practical MLOps Workshop at BCC, University of Brawijaya, 2024",
-      slides_url: "https://bit.ly/practical-mlops-slides",
-      event_url: "https://bcc.ub.ac.id/mlops-workshop"
+      slides_url: "https://www.canva.com/design/DAGWlTW1cts/Nl2Au72DAs6ltuMfoga6vA/view?utm_content=DAGWlTW1cts&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6b9aa5c650",
+      event_url: "https://bcc.filkom.ub.ac.id/"
     },
+    {
+      title: "Pelatihan Pengembangan Infrastruktur dan Layanan Berbasis Web",
+      subtitle: "Teater Heuristik, FILKOM UB, Malang, Indonesia, 26th October 2024",
+      slides_url: "https://www.canva.com/design/DAGbBbHoyfo/rtFjRu4bafCdTrKZfi3YjA/view?utm_content=DAGbBbHoyfo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hea09e60dae",
+      event_url: "https://icn-filkom.ub.ac.id/article/1"
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
