@@ -18,15 +18,13 @@
     "react-scripts": "^5.0.1",
     "react-test-renderer": "^16.10.2",
     "react-twitter-embed": "3.0.3",
-    "sass": "^1.32.8",
-    "sitemap": "^8.0.0"
+    "sass": "^1.32.8"
   },
   "scripts": {
     "predeploy": "npm run build",
     "start": "node fetch.js && react-scripts start",
     "build": "node fetch.js && react-scripts build",
-    "generate-sitemap": "node src/generateSitemap.js",
-    "deploy": "npm run generate-sitemap && gh-pages -b gh-pages -d build",
+    "deploy": "gh-pages -b gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
