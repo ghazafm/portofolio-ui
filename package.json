@@ -25,6 +25,7 @@
     "predeploy": "npm run build",
     "start": "node fetch.js && react-scripts start",
     "build": "node fetch.js && react-scripts build",
+    "generate-sitemap": "node src/generateSitemap.js",
     "deploy": "npm run generate-sitemap && gh-pages -b gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
