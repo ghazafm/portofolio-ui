@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.223cbb09.css",
-    "main.js": "/static/js/main.3e9f9260.js",
+    "main.js": "/static/js/main.804c7e45.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.e6620dcb.chunk.js": "/static/js/487.e6620dcb.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.4c86ca26.chunk.js": "/static/js/990.4c86ca26.chunk.js",
-    "static/media/resume.pdf": "/static/media/resume.bcbbc95b9883ec122ca7.pdf",
+    "static/media/resume.pdf": "/static/media/resume.ae81225513451a99de56.pdf",
     "static/media/stressCheckerAward.png": "/static/media/stressCheckerAward.68541ce21577bb5c5c55.png",
     "static/media/LaplaceProject.png": "/static/media/LaplaceProject.746cec17f70a970d2528.png",
     "static/media/brawijayaLogo.png": "/static/media/brawijayaLogo.a65ced12438e510d52d6.png",
@@ -26,7 +26,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.223cbb09.css.map": "/static/css/main.223cbb09.css.map",
-    "main.3e9f9260.js.map": "/static/js/main.3e9f9260.js.map",
+    "main.804c7e45.js.map": "/static/js/main.804c7e45.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.e6620dcb.chunk.js.map": "/static/js/487.e6620dcb.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -34,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.223cbb09.css",
-    "static/js/main.3e9f9260.js"
+    "static/js/main.804c7e45.js"
   ]
 }
