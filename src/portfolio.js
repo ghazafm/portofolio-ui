@@ -22,11 +22,13 @@ const illustration = {
 const greeting = {
   username: "Ghaza",
   title: "Hi, I'm Fauzan Ghaza Madani",
-  subTitle: emoji("Aspiring Data Scientist, Data Engineer, and Network Engineer 🚀"),
-  resumeLink: "https://drive.google.com/file/d/1_YHFYjetcpbQNQnxCXIP4d3d5mkD7k7N/view?usp=sharing",
+  subTitle: emoji(
+    "Aspiring Data Scientist, Data Engineer, and Network Engineer 🚀"
+  ),
+  resumeLink:
+    "https://drive.google.com/file/d/1_YHFYjetcpbQNQnxCXIP4d3d5mkD7k7N/view?usp=sharing",
   displayGreeting: true
 };
-
 
 // Social Media Links
 
@@ -48,16 +50,28 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "PASSIONATE ENGINEER EXPLORING DATA, NETWORKS, AND MACHINE LEARNING",
+  subTitle:
+    "PASSIONATE ENGINEER EXPLORING DATA, NETWORKS, AND MACHINE LEARNING",
   skills: [
-    emoji("⚡ Build and deploy scalable Machine Learning models with MLOps pipelines"),
-    emoji("⚡ Design and optimize network architectures with tools like GNS3 and Cisco technologies"),
-    emoji("⚡ Develop dynamic web applications using Laravel and modern frameworks"),
-    emoji("⚡ Analyze large datasets for actionable insights using Data Science and NLP"),
-    emoji("⚡ Containerize and orchestrate services with Docker and Kubernetes"),
-    emoji("⚡ Mentor and guide students in programming, networking, and operating systems")
+    emoji(
+      "⚡ Build and deploy scalable Machine Learning models with MLOps pipelines"
+    ),
+    emoji(
+      "⚡ Design and optimize network architectures with tools like GNS3 and Cisco technologies"
+    ),
+    emoji(
+      "⚡ Develop dynamic web applications using Laravel and modern frameworks"
+    ),
+    emoji(
+      "⚡ Analyze large datasets for actionable insights using Data Science and NLP"
+    ),
+    emoji(
+      "⚡ Containerize and orchestrate services with Docker and Kubernetes"
+    ),
+    emoji(
+      "⚡ Mentor and guide students in programming, networking, and operating systems"
+    )
   ],
-
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -123,10 +137,9 @@ const educationInfo = {
         "Presented a sentiment analysis project using NLP on 10,000+ tweets during the 2024 Indonesian election",
         "Mentored 150+ students in networking, programming, and operating systems as a laboratory assistant"
       ]
-    },
+    }
   ]
 };
-
 
 // Your top 3 proficient stacks/tech experience
 
@@ -192,7 +205,6 @@ const workExperiences = {
     }
   ]
 };
-
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -288,7 +300,6 @@ const bigProjects = {
   display: true // Set false to hide this section, defaults to true
 };
 
-
 // Achievement Section
 // Include certificates, talks etc
 
@@ -378,36 +389,41 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle: "Sharing knowledge and insights in Data Science, Networking, and MLOps.",
+  subtitle:
+    "Sharing knowledge and insights in Data Science, Networking, and MLOps.",
   displayMediumBlogs: "true", // Set to true when ready to display fetched Medium blogs
   blogs: [], // No blogs currently
   display: true // Set false to hide this section, defaults to true
 };
 
-
 // Talks Sections
 
 const talkSection = {
   title: "Talks",
-  subtitle: emoji("Sharing Knowledge and Insights Through Speaking Engagements"),
+  subtitle: emoji(
+    "Sharing Knowledge and Insights Through Speaking Engagements"
+  ),
 
   talks: [
     {
       title: "Introduction to MLOps for Machine Learning Projects",
-      subtitle: "Practical MLOps Workshop at BCC, University of Brawijaya, 2024",
-      slides_url: "https://www.canva.com/design/DAGWlTW1cts/Nl2Au72DAs6ltuMfoga6vA/view?utm_content=DAGWlTW1cts&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6b9aa5c650",
+      subtitle:
+        "Practical MLOps Workshop at BCC, University of Brawijaya, 2024",
+      slides_url:
+        "https://www.canva.com/design/DAGWlTW1cts/Nl2Au72DAs6ltuMfoga6vA/view?utm_content=DAGWlTW1cts&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6b9aa5c650",
       event_url: "https://bcc.filkom.ub.ac.id/"
     },
     {
       title: "Pelatihan Pengembangan Infrastruktur dan Layanan Berbasis Web",
-      subtitle: "Teater Heuristik, FILKOM UB, Malang, Indonesia, 26th October 2024",
-      slides_url: "https://www.canva.com/design/DAGbBbHoyfo/rtFjRu4bafCdTrKZfi3YjA/view?utm_content=DAGbBbHoyfo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hea09e60dae",
+      subtitle:
+        "Teater Heuristik, FILKOM UB, Malang, Indonesia, 26th October 2024",
+      slides_url:
+        "https://www.canva.com/design/DAGbBbHoyfo/rtFjRu4bafCdTrKZfi3YjA/view?utm_content=DAGbBbHoyfo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hea09e60dae",
       event_url: "https://icn-filkom.ub.ac.id/article/1"
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 
 // Podcast Section
 
@@ -420,7 +436,6 @@ const podcastSection = {
   display: false // Set to true when ready to display this section
 };
 
-
 // Resume Section
 const resumeSection = {
   title: "Resume",
@@ -432,11 +447,11 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Interested in collaborating on a project or just want to say hello? Feel free to reach out!",
-  // number: "+62-87802065965", 
+  subtitle:
+    "Interested in collaborating on a project or just want to say hello? Feel free to reach out!",
+  // number: "+62-87802065965",
   email_address: "contact@fauzanghaza.com"
 };
-
 
 // Twitter Section
 
